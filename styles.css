@@ -1,3 +1,17 @@
 div{
 colo:yellow;
 }
+header{
+
+}
+body,h1,h2,h3, h4,p,a{
+    margin: 0;
+    font-size: 100%; 
+     font-weight: normal;
+   }/*se agrega un selector margin 0 para que google no pueda configurar a su estilo los margenes*/
+* {/*Este selector tiene la capacidad de asignar propiedades a cada uno de los elementos de forma simultánea debes escribir la regla *{ } inmediatamente después de restablecer los estilos predeterminados del navegador, y antes de la regla body { }.*/
+   box-sizing: border-box;  
+ }
+body {/*creamos una regla para todo el cuerpo boy es decir todos los ajuste que llevara la pagina*/
+   font-family: 'Inter', sans-serif;/*tipo de letra*/
+} 
